@@ -2,37 +2,44 @@ div{
     display: block;
     border: 1px solid black;
 }
+
 body{
     border: 1px solid black;
     display: block;
     padding: 30px;
 }
+
 .body-main{
     margin-top: 30px;
 }
+
 .bottom{
     margin-top: 30px;
     height: 150px;
 }
-.top--avatar{
+
+.top__avatar{
     display: inline-block;
     width: 15%;
     height: 200px;
     margin: 40px;
 }
-.top--name{
+
+.top__name{
     display: inline-block;
     width: 76%;
     height: 200px;
 }
-.col-left{
+
+.body-main__col-left{
     width: 25%;
     display: inline-block;
     height: 700px;
     margin: 40px;
     text-align: center;
 }
-.col-right{
+
+.body-main__col-right{
     width: 66%;
     display: inline-block;
     vertical-align: top;
@@ -40,14 +47,16 @@ body{
     margin-top: 40px;
     text-align: center;
 }
-.col--card1{
+
+.body-main__card--small{
     display: inline-block;
     width: 80%;
     height: 27%;
     vertical-align: top;
     margin-top: 30px;
 }
-.col--card2{
+
+.body-main__card--large{
     display: inline-block;
     width: 92%;
     height: 43%;
